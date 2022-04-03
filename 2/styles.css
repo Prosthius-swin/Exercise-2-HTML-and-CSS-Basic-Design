@@ -1,0 +1,60 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(73, 165, 73);
+}
+
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.white-box {
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 30px;
+    box-shadow: 100px, 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    box-shadow: 1px 5px 10px;
+}
+
+.grey-box {
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    color: grey;
+}
+
+button {
+    width: 330px;
+    color: white;
+    background-color: rgb(5, 197, 5);
+    border: none;
+}
+
+.centre-align {
+    text-align: center;
+}
+
+.small {
+    font-size: 10px;
+}
+
+a {
+    font-size: 10px;
+    text-decoration: none;
+    color: green;
+}
+
+.none {
+    margin: none;
+    padding: none;
+}
